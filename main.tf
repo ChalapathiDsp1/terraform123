@@ -12,7 +12,7 @@ resource "aws_instance" "one" {
     availability_zone = "us-east-1a"
     vpc_security_group_ids = [ aws_security_group.securityone.id ]
     tags = {
-      Name = Terraform
+      Name = "Terraform"
     }
   
 }
